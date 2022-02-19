@@ -1,5 +1,5 @@
 <div align="center">
 
-### Less is more.
+**Less is more.**
 
 </div>
