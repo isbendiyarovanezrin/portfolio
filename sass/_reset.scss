@@ -1,15 +1,13 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  outline: none;
   border: none;
+  outline: none;
   box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
 }

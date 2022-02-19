@@ -1,0 +1,26 @@
+html {
+  font-size: $font-size-root;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  font-family: $font-family;
+  color: $white;
+  background-color: $black;
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: $black;
+  background-color: $white;
+}

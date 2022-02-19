@@ -1,0 +1,83 @@
+.container {
+  max-width: $container-width;
+}
+
+header,
+main,
+.contact {
+  margin: $margin-4;
+}
+
+.title {
+  font-weight: $font-weight-normal;
+  font-size: $font-size-lg;
+}
+
+.subtitle {
+  font-weight: $font-weight-normal;
+  font-size: $font-size-md;
+}
+
+.my-info {
+  font-size: $font-size-sm;
+  text-align: justify;
+  line-height: $line-height;
+}
+
+.work {
+  display: inline-flex;
+  flex-direction: column;
+
+  &__title {
+    margin: $margin-1 * 0.3;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-md;
+  }
+
+  &__link {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
+    margin: $margin-1 * 0.3;
+    color: $white;
+    text-decoration: underline;
+    text-underline-offset: $text-underline-offset;
+
+    &:hover {
+      color: $hover-color;
+      text-decoration: none;
+      @include transition(0.4s ease);
+    }
+  }
+}
+
+.contact {
+  user-select: none;
+
+  &__link {
+    margin: $margin-reset $margin-half;
+    color: $white;
+  }
+}
+
+.fab {
+  font-size: $font-size-md;
+
+  &:hover {
+    color: $hover-color;
+    @include transition(0.4s ease, transform 0.9s ease);
+    @include transform(rotate(360deg));
+  }
+}
+
+// media queries
+@media screen and (max-width: 590px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 7px;
+  }
+}
