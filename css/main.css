@@ -60,22 +60,31 @@ a {
 header,
 main,
 .contact {
-  margin: 4rem;
+  margin: 2rem;
+}
+
+header {
+  margin-top: 1rem !important;
+}
+
+.contact {
+  margin-bottom: 1rem !important;
 }
 
 .title {
   font-weight: 400;
   font-size: 2.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .my-info {
-  font-size: 1.4rem;
-  text-align: justify;
+  font-weight: 400;
+  font-size: 1.7rem;
   line-height: 2.2rem;
 }
 
@@ -90,15 +99,15 @@ main,
 }
 
 .work__title {
-  margin: 0.3rem;
+  margin: 0.4rem;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .work__link {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  margin: 0.3rem;
+  margin: 0.2rem;
   color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 0.1rem;
@@ -138,14 +147,8 @@ main,
   transform: rotate(360deg);
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 500px) {
   html {
-    font-size: 8px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  html {
-    font-size: 7px;
+    font-size: 9px;
   }
 }
