@@ -5,21 +5,12 @@
 header,
 main,
 .contact {
-  margin: $margin-2;
-}
-
-header {
-  margin-top: $margin-1 !important;
-}
-
-.contact {
-  margin-bottom: $margin-1 !important;
+  margin: $margin-3 / 2;
 }
 
 .title {
   font-weight: $font-weight-normal;
   font-size: $font-size-lg;
-  margin-bottom: $margin-half;
 }
 
 .subtitle {
@@ -38,7 +29,6 @@ header {
   flex-direction: column;
 
   &__title {
-    margin: $margin-1 * 0.4;
     font-weight: $font-weight-normal;
     font-size: $font-size-sm;
   }
@@ -46,7 +36,7 @@ header {
   &__link {
     font-size: $font-size-sm;
     font-weight: $font-weight-bold;
-    margin: $margin-1 * 0.2;
+    margin: $margin-1 * 0.1;
     color: $white;
     text-decoration: underline;
     text-underline-offset: $text-underline-offset;
