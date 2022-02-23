@@ -1,11 +1,17 @@
 .container {
-  max-width: $container-width;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 header,
-main,
+.main,
+.work,
 .contact {
-  margin: $margin-3 / 2;
+  margin: $margin-half;
 }
 
 .title {
