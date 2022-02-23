@@ -7,7 +7,6 @@ body {
   color: $white;
   background-color: $black;
   overflow-x: hidden;
-  padding: $padding-half;
 }
 
 a {
@@ -18,4 +17,9 @@ a {
 ::selection {
   color: $black;
   background-color: $white;
+}
+
+.my-info::selection {
+  color: $white;
+  background-color: $hover-color;
 }

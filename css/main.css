@@ -22,7 +22,6 @@ body {
   color: #ffffff;
   background-color: #000000;
   overflow-x: hidden;
-  padding: 0.5rem;
 }
 
 a {
@@ -38,6 +37,16 @@ a {
 ::selection {
   color: #000000;
   background-color: #ffffff;
+}
+
+.my-info::-moz-selection {
+  color: #ffffff;
+  background-color: #5e5e5e;
+}
+
+.my-info::selection {
+  color: #ffffff;
+  background-color: #5e5e5e;
 }
 
 .container {
@@ -66,18 +75,17 @@ header,
 
 .title {
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 
 .subtitle {
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .my-info {
   font-weight: 400;
-  font-size: 1.7rem;
-  line-height: 2.2rem;
+  font-size: 1.6rem;
 }
 
 .work {
@@ -92,16 +100,16 @@ header,
 
 .work__title {
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .work__link {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  margin: 0.1rem;
+  margin: 0.05rem;
   color: #ffffff;
   text-decoration: underline;
-  text-underline-offset: 0.1rem;
+  text-underline-offset: 0.05rem;
 }
 
 .work__link:hover {
@@ -124,7 +132,7 @@ header,
 }
 
 .fab {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .fab:hover {

@@ -16,18 +16,17 @@ header,
 
 .title {
   font-weight: $font-weight-normal;
-  font-size: $font-size-lg;
+  font-size: $font-size-xl;
 }
 
 .subtitle {
   font-weight: $font-weight-normal;
-  font-size: $font-size-sm;
+  font-size: $font-size-md;
 }
 
 .my-info {
   font-weight: $font-weight-normal;
-  font-size: $font-size-md;
-  line-height: $line-height;
+  font-size: $font-size-lg;
 }
 
 .work {
@@ -36,13 +35,13 @@ header,
 
   &__title {
     font-weight: $font-weight-normal;
-    font-size: $font-size-sm;
+    font-size: $font-size-md;
   }
 
   &__link {
     font-size: $font-size-sm;
     font-weight: $font-weight-bold;
-    margin: $margin-1 * 0.1;
+    margin: $margin-1 * 0.05;
     color: $white;
     text-decoration: underline;
     text-underline-offset: $text-underline-offset;
@@ -65,7 +64,7 @@ header,
 }
 
 .fab {
-  font-size: $font-size-md;
+  font-size: $font-size-lg;
 
   &:hover {
     color: $hover-color;
