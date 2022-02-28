@@ -49,6 +49,29 @@ a {
   background-color: #5e5e5e;
 }
 
+#loadingDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #000000;
+}
+
+.loader {
+  width: 5rem;
+  height: 5rem;
+  background: center/contain no-repeat url(../img/loader.gif);
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;

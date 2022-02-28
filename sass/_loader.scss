@@ -1,0 +1,16 @@
+#loadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: $zindex-loader;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: $black;
+}
+
+.loader {
+  width: $size-5;
+  height: $size-5;
+  background: center / contain no-repeat url(../img/loader.gif);
+}
