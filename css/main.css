@@ -25,6 +25,7 @@ body {
 }
 
 a {
+  color: #ffffff;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
@@ -106,6 +107,12 @@ header,
   font-size: 1.48rem;
 }
 
+.subtitle__link:hover {
+  color: #5e5e5e;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
 .my-info {
   font-weight: 400;
   font-size: 1.54rem;
@@ -130,7 +137,6 @@ header,
   font-size: 1.35rem;
   font-weight: 700;
   margin: 0.04rem;
-  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 0.05rem;
 }

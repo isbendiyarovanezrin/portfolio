@@ -22,6 +22,11 @@ header,
 .subtitle {
   font-weight: $font-weight-normal;
   font-size: $font-size-md;
+
+  &__link:hover {
+    color: $hover-color;
+    @include transition(0.4s ease);
+  }
 }
 
 .my-info {
@@ -42,7 +47,6 @@ header,
     font-size: $font-size-sm;
     font-weight: $font-weight-bold;
     margin: $margin-1 * 0.04;
-    color: $white;
     text-decoration: underline;
     text-underline-offset: $text-underline-offset;
 
