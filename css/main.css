@@ -97,9 +97,29 @@ header,
   margin: 0.5rem;
 }
 
+.my-photo {
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(5%, -50%);
+          transform: translate(5%, -50%);
+  display: none;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25rem;
+  height: 30rem;
+  opacity: 0.8;
+}
+
 .title {
+  cursor: pointer;
   font-weight: 400;
   font-size: 1.74rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.title:hover + .my-photo {
+  display: inline-block;
 }
 
 .subtitle {
@@ -179,5 +199,9 @@ header,
 @media screen and (max-width: 500px) {
   html {
     font-size: 9px;
+  }
+  .my-photo {
+    width: 15rem;
+    height: 20rem;
   }
 }

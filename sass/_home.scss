@@ -14,9 +14,27 @@ header,
   margin: $margin-half;
 }
 
+.my-photo {
+  left: 0;
+  top: 50%;
+  transform: translate(5%, -50%);
+  display: none;
+  position: absolute;
+  object-fit: cover;
+  width: 25rem;
+  height: 30rem;
+  opacity: 0.8;
+}
+
 .title {
+  cursor: pointer;
   font-weight: $font-weight-normal;
   font-size: $font-size-xl;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.title:hover + .my-photo {
+  display: inline-block;
 }
 
 .subtitle {
@@ -81,5 +99,10 @@ header,
 @media screen and (max-width: 500px) {
   html {
     font-size: 9px;
+  }
+
+  .my-photo {
+    width: 17rem;
+    height: 22rem;
   }
 }
