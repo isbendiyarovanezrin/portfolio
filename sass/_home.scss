@@ -62,12 +62,12 @@ header,
   user-select: none;
 
   &__link {
-    margin: $margin-reset $margin-half;
-    color: $white;
+    margin: $margin-reset $margin-1 * 0.32;
   }
 }
 
-.fab {
+.fab,
+.fas {
   font-size: $font-size-lg;
 
   &:hover {

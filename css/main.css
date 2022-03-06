@@ -156,15 +156,16 @@ header,
 }
 
 .contact__link {
-  margin: 0rem 0.5rem;
-  color: #ffffff;
+  margin: 0rem 0.32rem;
 }
 
-.fab {
+.fab,
+.fas {
   font-size: 1.54rem;
 }
 
-.fab:hover {
+.fab:hover,
+.fas:hover {
   color: #5e5e5e;
   -webkit-transition: 0.4s ease, transform 0.9s ease;
   -webkit-transition: 0.4s ease, -webkit-transform 0.9s ease;
