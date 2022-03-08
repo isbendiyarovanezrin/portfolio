@@ -73,6 +73,28 @@ a {
   background: center/contain no-repeat url(../img/loader.gif);
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  -webkit-box-shadow: inset 0rem 0rem 0.5rem #a5a5a5;
+          box-shadow: inset 0rem 0rem 0.5rem #a5a5a5;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background-color: #3f3b3b;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #252222;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,7 +223,7 @@ header,
     font-size: 9px;
   }
   .my-photo {
-    width: 15rem;
-    height: 20rem;
+    width: 17rem;
+    height: 22rem;
   }
 }
