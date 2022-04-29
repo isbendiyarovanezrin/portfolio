@@ -116,7 +116,7 @@ header,
 .main,
 .work,
 .contact {
-  margin: 0.3rem;
+  margin: 0.2rem;
 }
 
 .my-photo {
@@ -146,7 +146,7 @@ header,
 
 .subtitle {
   font-weight: 400;
-  font-size: 1.46rem;
+  font-size: 1.44rem;
 }
 
 .subtitle__link:hover {
@@ -157,7 +157,7 @@ header,
 
 .my-info {
   font-weight: 400;
-  font-size: 1.52rem;
+  font-size: 1.5rem;
 }
 
 .work {
@@ -172,15 +172,15 @@ header,
 
 .work__title {
   font-weight: 400;
-  font-size: 1.46rem;
+  font-size: 1.44rem;
 }
 
 .work__link {
-  font-size: 1.34rem;
+  font-size: 1.32rem;
   font-weight: 700;
-  margin: 0.04rem;
+  margin: 0.02rem;
   text-decoration: underline;
-  text-underline-offset: 0.05rem;
+  text-underline-offset: 0.04rem;
 }
 
 .work__link:hover {
@@ -203,7 +203,7 @@ header,
 
 .fab,
 .fas {
-  font-size: 1.52rem;
+  font-size: 1.5rem;
 }
 
 .fab:hover,

@@ -11,7 +11,7 @@ header,
 .main,
 .work,
 .contact {
-  margin: $margin-1 * 0.3;
+  margin: $margin-1 * 0.2;
 }
 
 .my-photo {
@@ -64,7 +64,7 @@ header,
   &__link {
     font-size: $font-size-sm;
     font-weight: $font-weight-bold;
-    margin: $margin-1 * 0.04;
+    margin: $margin-1 * 0.02;
     text-decoration: underline;
     text-underline-offset: $text-underline-offset;
 
