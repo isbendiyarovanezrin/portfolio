@@ -218,6 +218,10 @@ header,
   transform: rotate(360deg);
 }
 
+.fa-youtube {
+  font-size: 1.41rem;
+}
+
 @media screen and (max-width: 500px) {
   html {
     font-size: 9px;
