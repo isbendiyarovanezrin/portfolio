@@ -1,5 +1,5 @@
 <div align="center">
 
-### [Less is more.](https://isbendiyarovanezrin.github.io/MyPortfolio2 "Click me! ⚡")
+### [Less is more.](https://isbendiyarovanezrin.github.io/portfolio "Click me! ⚡")
 
 </div>
