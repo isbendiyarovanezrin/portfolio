@@ -142,6 +142,10 @@ header,
 
 .title:hover + .my-photo {
   display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .subtitle {
