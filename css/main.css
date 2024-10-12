@@ -103,8 +103,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -112,7 +113,6 @@ a {
   min-height: 100vh;
 }
 
-header,
 .main,
 .work,
 .contact {
@@ -133,14 +133,18 @@ header,
   opacity: 0.8;
 }
 
-.title {
+.footer {
   cursor: pointer;
+  bottom: 1rem;
+  right: 1rem;
+  position: fixed;
+  font-style: italic;
   font-weight: 400;
-  font-size: 1.72rem;
+  font-size: 1.5rem;
   -webkit-tap-highlight-color: transparent;
 }
 
-.title:hover + .my-photo {
+.footer:hover + .my-photo {
   display: inline-block;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -148,20 +152,9 @@ header,
           user-select: none;
 }
 
-.subtitle {
-  font-weight: 400;
-  font-size: 1.44rem;
-}
-
-.subtitle__link:hover {
-  color: #5e5e5e;
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-}
-
 .my-info {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.72rem;
 }
 
 .work {

@@ -1,13 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   min-height: 100vh;
 }
 
-header,
 .main,
 .work,
 .contact {
@@ -26,31 +25,25 @@ header,
   opacity: 0.8;
 }
 
-.title {
+.footer {
   cursor: pointer;
+  bottom: $size-1;
+  right: $size-1;
+  position: fixed;
+  font-style: italic;
   font-weight: $font-weight-normal;
-  font-size: $font-size-xl;
+  font-size: $font-size-lg;
   -webkit-tap-highlight-color: transparent;
 }
 
-.title:hover + .my-photo {
+.footer:hover + .my-photo {
   display: inline-block;
   user-select: none;
 }
 
-.subtitle {
-  font-weight: $font-weight-normal;
-  font-size: $font-size-md;
-
-  &__link:hover {
-    color: $hover-color;
-    @include transition(0.4s ease);
-  }
-}
-
 .my-info {
   font-weight: $font-weight-normal;
-  font-size: $font-size-lg;
+  font-size: $font-size-xl;
 }
 
 .work {
