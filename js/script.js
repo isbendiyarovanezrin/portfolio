@@ -12,3 +12,10 @@ function removeLoader() {
     $("#loadingDiv").remove();
   });
 }
+
+document.body.style.overflow = "hidden";
+
+window.onload = function () {
+  document.body.style.overflow = "auto";
+  document.getElementById("loadingDiv").style.display = "none";
+};
