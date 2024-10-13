@@ -8,6 +8,7 @@
 }
 
 .main,
+.footer,
 .work,
 .contact {
   margin: $margin-1 * 0.2;
@@ -27,12 +28,9 @@
 
 .footer {
   cursor: pointer;
-  bottom: $size-1;
-  right: $size-1;
-  position: fixed;
   font-style: italic;
   font-weight: $font-weight-normal;
-  font-size: $font-size-lg;
+  font-size: $font-size-sm;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -43,7 +41,7 @@
 
 .my-info {
   font-weight: $font-weight-normal;
-  font-size: $font-size-xl;
+  font-size: $font-size-lg;
 }
 
 .work {

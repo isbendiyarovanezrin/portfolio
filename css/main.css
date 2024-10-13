@@ -64,7 +64,7 @@ a {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .loader {
@@ -114,6 +114,7 @@ a {
 }
 
 .main,
+.footer,
 .work,
 .contact {
   margin: 0.2rem;
@@ -135,12 +136,9 @@ a {
 
 .footer {
   cursor: pointer;
-  bottom: 1rem;
-  right: 1rem;
-  position: fixed;
   font-style: italic;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.32rem;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -154,7 +152,7 @@ a {
 
 .my-info {
   font-weight: 400;
-  font-size: 1.72rem;
+  font-size: 1.56rem;
 }
 
 .work {
@@ -200,7 +198,7 @@ a {
 
 .fab,
 .fas {
-  font-size: 1.5rem;
+  font-size: 1.56rem;
 }
 
 .fab:hover,
